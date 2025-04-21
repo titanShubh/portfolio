@@ -26,7 +26,7 @@ const Achievements = () => (
       <Award className="text-purple-400" /> Achievements
     </div>
     <ul className="grid sm:grid-cols-2 gap-6">
-      {achievements.map((a, i) => (
+      {achievements.map((a) => (
         <li
           key={a.title}
           className="rounded-lg bg-gray-900 p-6 shadow hover-scale relative border-l-4 border-green-500"

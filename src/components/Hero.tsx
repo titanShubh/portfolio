@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="max-w-xl">
         <h1 className="text-5xl font-bold text-white mb-6">SHUBH GUPTA</h1>
         <p className="text-gray-400 mb-8 text-lg">
-          Skilled software developer specialized in Python, DSA, and problem solving.<br />
-          Experienced in building efficient, scalable solutions for real-world problems with strong fundamentals in computer science and backend systems.
+          Skilled software developer specializing in Python, Data Structures & Algorithms, and backend development.<br />
+          Passionate about building scalable, efficient solutions for real-world problems.
         </p>
         <Link
           to="/contact"
@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
       <div className="rounded-full overflow-hidden w-64 h-64 border-4 border-gray-700 shadow-lg bg-gray-800 flex items-center justify-center">
         <img
-          src="/lovable-uploads/c448bd06-79db-4245-9e31-826280faef31.png"
+          src="/lovable-uploads/a8297a70-b371-4ca2-bb50-fbbef0c3b175.png"
           alt="Shubh Gupta"
           className="w-full h-full object-cover"
         />
