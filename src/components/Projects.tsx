@@ -31,7 +31,7 @@ const Projects = () => (
             alt={proj.title}
             className="h-56 w-full object-cover group-hover:scale-105 transition-transform duration-200"
             onError={e => {
-              (e.currentTarget as HTMLImageElement).src = '/lovable-uploads/github.png';
+              (e.currentTarget as HTMLImageElement).src = '/public/lovable-uploads/github.png';
             }}
           />
           <div className="p-6 flex-1 flex flex-col">
