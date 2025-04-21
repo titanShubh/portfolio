@@ -11,17 +11,17 @@ const achievements = [
     ]
   },
   {
-    title: "Codeforces",
-    description: "Regular participant, key standings in multiple contests.",
+    title: "Codeforces (Highest Rating - 1601)",
+    description: "Expert Rated",
     link: "https://codeforces.com/profile/titan_2",
     secondaryLinks: [
-      { label: "1980 standings", url: "https://codeforces.com/contest/1980/standings/page/4"},
-      { label: "2071 standings", url: "https://codeforces.com/contest/2071/standings/participant/204952521##p204952521"}
+      { label: "Global Rank 768th Round 950 (Div.3)", url: "https://codeforces.com/contest/1980/standings/page/4"},
+      { label: "Global Rank 838th Round 1007 (Div.2)", url: "https://codeforces.com/contest/2071/standings/participant/204952521##p204952521"}
     ]
   },
   {
     title: "CodeChef",
-    description: "4⭐ Coder | MARCH221D Division: Top rank achieved.",
+    description: "4⭐ Coder | MARCH221D Division: Rank 1st",
     link: "https://www.codechef.com/users/shubh_titan",
     secondaryLinks: [
       { label: "March 22 Ranking", url: "https://www.codechef.com/rankings/MARCH221D?itemsPerPage=100&order=asc&page=1&search=shubh_titan&sortBy=rank" }
@@ -29,17 +29,17 @@ const achievements = [
   },
   {
     title: "AtCoder",
-    description: "Active competitive programming participant.",
+    description: "5 Kyu, Active competitive programming participant",
     link: "https://atcoder.jp/users/shubh_titan"
   },
   {
-    title: "HackerCup 2024: Qualified Round 2",
-    description: "See certificate.",
+    title: "HackerCup 2024: Qualified for Round 2",
+    description: "Round 1 Finalist",
     link: "https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/270751775350259"
   },
   {
     title: "Codingame",
-    description: "Ranked globally in online AI coding competitions.",
+    description: "Rookie, Ranked globally in online AI coding competitions.",
     link: "https://www.codingame.com/profile/d61c20121be0b167fb73837b7c3c61787427174"
   }
 ];
