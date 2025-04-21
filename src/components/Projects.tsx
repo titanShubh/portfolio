@@ -31,7 +31,7 @@ const Projects = () => (
             alt={proj.title}
             className="h-56 w-full object-cover group-hover:scale-105 transition-transform duration-200"
             onError={e => {
-              (e.currentTarget as HTMLImageElement).src = '/lovable-uploads/c448bd06-79db-4245-9e31-826280faef31.png';
+              (e.currentTarget as HTMLImageElement).src = '/lovable-uploads/GitHub_Invertocat_Logo.svg.png';
             }}
           />
           <div className="p-6 flex-1 flex flex-col">
