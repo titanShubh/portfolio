@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center py-6 px-4 md:px-8">
       <div className="flex space-x-10">
-        <Link to="/" className="text-white hover:text-gray-300 transition-colors">
+        {/* <Link to="/" className="text-white hover:text-gray-300 transition-colors">
           Home
-        </Link>
+        </Link> */}
         {/* <Link to="/case-studies" className="text-white hover:text-gray-300 transition-colors">
           Case Studies
         </Link>
