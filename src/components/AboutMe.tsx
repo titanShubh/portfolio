@@ -1,4 +1,3 @@
-
 import { User, FileText, School } from "lucide-react";
 
 const AboutMe = () => (
@@ -6,7 +5,7 @@ const AboutMe = () => (
     <div className="flex flex-col md:flex-row items-center gap-8">
       <div className="rounded-xl overflow-hidden w-44 h-44 border-4 border-green-500 shadow-xl bg-gray-800 flex items-center justify-center shrink-0 hover:scale-105 transition-transform duration-200">
         <img
-          src="/lovable-uploads/317309dc-ced9-481f-8e8d-4fac64567f48.png"
+          src="/lovable-uploads/a8297a70-b371-4ca2-bb50-fbbef0c3b175.png"
           alt="Shubh Gupta"
           className="w-full h-full object-cover"
         />
@@ -17,7 +16,7 @@ const AboutMe = () => (
         </div>
         <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">
           I am a dedicated software developer with strong fundamentals in computer science, problem-solving, and backend engineering.<br />
-          Skilled in competitive programming and building real-world solutions using Python, SQL, C++, and modern backend tech.<br />
+          Skilled in competitive programming and building real-world solutions using Python, SQL, C++, and modern backend technologies.<br />
           I thrive in high-paced environments and love tackling complex tech challenges.
         </p>
         <div className="mt-6">
@@ -28,19 +27,12 @@ const AboutMe = () => (
             <li>
               <strong>B.Tech, Computer Science & Engineering</strong>
               <br />
-              Galgotias College of Engineering & Technology (2021-2025)
-              <br />
-              <span className="text-gray-400 text-sm">Current CGPA: 8.41*</span>
+              Institute of Engineering and Technology, Lucknow (Nov 2023 - Jun 2027)
             </li>
             <li className="mt-3">
-              <strong>CBSE (12th), PCM</strong>
+              <strong>Class XII, PCM</strong>
               <br />
-              Rani Laxmi Bai Memorial School, Lucknow, 2021 | 95.6%
-            </li>
-            <li className="mt-3">
-              <strong>CBSE (10th)</strong>
-              <br />
-              Rani Laxmi Bai Memorial School, Lucknow, 2019 | 91.8%
+              S.J Education Centre, Kanpur (Apr 2021 - May 2022) | 86.8%
             </li>
           </ul>
         </div>

@@ -1,14 +1,13 @@
-
 import { Award, Book } from "lucide-react";
 
 const achievements = [
   {
-    title: "LeetCode (1700+ Problems)",
-    description: "1700+ DSA problems solved. Highest Contest Rank: 15th (Weekly 422).",
+    title: "LeetCode (Highest Rating - 2101)",
+    description: "Knight Badge. Among 1% users in Leetcode",
     link: "https://leetcode.com/u/guptashubh6386/",
     secondaryLinks: [
-      { label: "Rank 15 (W422)", url: "https://leetcode.com/contest/weekly-contest-422/ranking/15/" },
-      { label: "Rank 27 (W421)", url: "https://leetcode.com/contest/weekly-contest-421/ranking/27/" }
+      { label: "Global Rank 358th (W422)", url: "https://leetcode.com/contest/weekly-contest-422/ranking/15/" },
+      { label: "Global Rank 653rd (W421)", url: "https://leetcode.com/contest/weekly-contest-421/ranking/27/" }
     ]
   },
   {
@@ -48,15 +47,15 @@ const achievements = [
 const Achievements = () => (
   <section className="py-12 px-4 md:px-8">
     <div className="flex items-center gap-2 text-xl font-semibold mb-6">
-      <Award className="text-purple-400" /> Achievements
+      <Award className="text-purple-400" aria-hidden="true" /> Achievements
     </div>
     <ul className="grid sm:grid-cols-2 gap-6">
       {achievements.map((a) => (
         <li
           key={a.title}
-          className="rounded-lg bg-gray-900 p-6 shadow hover-scale relative border-l-4 border-green-500 transition-all hover:shadow-lg"
+          className="rounded-lg bg-gray-900 p-6 shadow hover:scale-105 relative border-l-4 border-green-500 transition-all hover:shadow-lg"
         >
-          <a href={a.link} target="_blank" rel="noopener noreferrer" className="group block">
+          <a href={a.link} target="_blank" rel="noopener noreferrer" className="group block" aria-label={`Link to ${a.title}`}>
             <h4 className="text-white text-lg font-semibold mb-1 group-hover:text-green-400 transition-colors">
               {a.title}
             </h4>
@@ -65,10 +64,15 @@ const Achievements = () => (
           {a.secondaryLinks && (
             <div className="flex flex-wrap gap-2 mt-2">
               {a.secondaryLinks.map(l => (
-                <a key={l.url} href={l.url} target="_blank" rel="noopener noreferrer"
-                  className="inline-block px-2 py-1 text-sm text-green-300 bg-gray-800 rounded hover:bg-green-600 hover:text-white transition-colors hover-scale"
+                <a
+                  key={l.url}
+                  href={l.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-2 py-1 text-sm text-green-300 bg-gray-800 rounded hover:bg-green-600 hover:text-white transition-colors hover:scale-105"
+                  aria-label={`Link to ${l.label}`}
                 >
-                  <Book size={13} className="inline-block mr-1" />{l.label}
+                  <Book size={13} className="inline-block mr-1" aria-hidden="true" />{l.label}
                 </a>
               ))}
             </div>
