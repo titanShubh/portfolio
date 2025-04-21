@@ -34,12 +34,12 @@ const Hero = () => {
             <Github className="text-white group-hover:text-green-400" size={28} />
           </a>
         </div>
-        <Link
+        {/* <Link
           to="/contact"
           className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-md transition-all text-lg font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 hover:scale-105"
         >
           Let's get started <ArrowRight size={20} />
-        </Link>
+        </Link> */}
       </div>
       <div className="rounded-full overflow-hidden w-64 h-64 border-4 border-green-500 shadow-xl bg-gray-800 flex items-center justify-center hover:scale-105 transition-transform duration-200">
         <img
