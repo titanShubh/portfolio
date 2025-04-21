@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link to="/" className="text-white hover:text-gray-300 transition-colors">
           Home
         </Link>
-        <Link to="/case-studies" className="text-white hover:text-gray-300 transition-colors">
+        {/* <Link to="/case-studies" className="text-white hover:text-gray-300 transition-colors">
           Case Studies
         </Link>
         <Link to="/testimonials" className="text-white hover:text-gray-300 transition-colors">
@@ -17,10 +17,10 @@ const Navbar = () => {
         </Link>
         <Link to="/recent-work" className="text-white hover:text-gray-300 transition-colors">
           Recent work
-        </Link>
-        <Link to="/contact" className="text-white hover:text-gray-300 transition-colors">
+        </Link> */}
+        {/* <Link to="/contact" className="text-white hover:text-gray-300 transition-colors">
           Get In Touch
-        </Link>
+        </Link> */}
       </div>
       <div className="flex space-x-4">
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
