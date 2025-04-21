@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, Linkedin, Github } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { useToast } from "@/hooks/use-toast";
@@ -52,20 +52,35 @@ const Contact = () => {
             value={form.message}
             onChange={handleChange}
           />
-          <Button type="submit" className="self-start">Send Message</Button>
+          <Button type="submit" className="self-start hover:bg-green-700 hover:scale-105 transition-transform">Send Message</Button>
         </form>
         <div className="flex flex-col justify-center text-gray-400 space-y-4">
-          <div className="flex items-center gap-3">
-            <Phone className="text-green-500" />
-            <span>+91 12345 67890</span>
+          <div className="flex items-center gap-3 group">
+            <Phone className="text-green-500 group-hover:text-green-400 transition-colors" />
+            <span className="group-hover:text-white transition-colors">8081132378</span>
           </div>
-          <div className="flex items-center gap-3">
-            <Mail className="text-green-500" />
-            <span>shubhgupta@example.com</span>
+          <div className="flex items-center gap-3 group">
+            <Mail className="text-green-500 group-hover:text-green-400 transition-colors" />
+            <a href="mailto:guptashubh926@gmail.com"
+              className="hover:underline hover:text-green-300 transition-colors">
+              guptashubh926@gmail.com
+            </a>
           </div>
-          <div className="flex items-center gap-3">
-            <MapPin className="text-green-500" />
-            <span>Delhi, India</span>
+          <div className="flex items-center gap-3 group">
+            <Linkedin className="text-green-500 group-hover:text-green-400 transition-colors" />
+            <a href="https://www.linkedin.com/in/shubh-gupta-2ab23a280/"
+              target="_blank" rel="noopener noreferrer"
+              className="hover:underline hover:text-green-300 transition-colors">
+              LinkedIn
+            </a>
+          </div>
+          <div className="flex items-center gap-3 group">
+            <Github className="text-green-500 group-hover:text-green-400 transition-colors" />
+            <a href="https://github.com/titanShubh"
+              target="_blank" rel="noopener noreferrer"
+              className="hover:underline hover:text-green-300 transition-colors">
+              Github
+            </a>
           </div>
         </div>
       </div>
