@@ -5,7 +5,7 @@ const AboutMe = () => (
     <div className="flex flex-col md:flex-row items-center gap-8">
       <div className="rounded-xl overflow-hidden w-44 h-44 border-4 border-green-500 shadow-xl bg-gray-800 flex items-center justify-center shrink-0 hover:scale-105 transition-transform duration-200">
         <img
-          src="public/lovable-uploads/resume.png"
+          src="/lovable-uploads/resume.png"
           alt="Shubh Gupta"
           className="w-full h-full object-cover"
         />
