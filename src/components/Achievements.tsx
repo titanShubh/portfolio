@@ -11,7 +11,7 @@ const achievements = [
     ]
   },
   {
-    title: "Codeforces (Highest Rating - 1601)",
+    title: "Codeforces (Highest Rating - 1709)",
     description: "Expert Rated",
     link: "https://codeforces.com/profile/titan_2",
     secondaryLinks: [
@@ -21,7 +21,7 @@ const achievements = [
   },
   {
     title: "CodeChef",
-    description: "4⭐ Coder | MARCH221D Division: Rank 1st",
+    description: "5⭐ Coder | MARCH221D Division: Rank 1st",
     link: "https://www.codechef.com/users/shubh_titan",
     secondaryLinks: [
       { label: "March 22 Ranking", url: "https://www.codechef.com/rankings/MARCH221D?itemsPerPage=100&order=asc&page=1&search=shubh_titan&sortBy=rank" }
@@ -29,7 +29,7 @@ const achievements = [
   },
   {
     title: "AtCoder",
-    description: "5 Kyu, Active competitive programming participant",
+    description: "4 Kyu, Active competitive programming participant",
     link: "https://atcoder.jp/users/shubh_titan"
   },
   {
