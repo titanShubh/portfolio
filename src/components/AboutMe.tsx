@@ -1,3 +1,4 @@
+
 import { User, FileText, School } from "lucide-react";
 
 const AboutMe = () => (
@@ -38,9 +39,10 @@ const AboutMe = () => (
         </div>
         <a
           className="inline-flex items-center gap-2 mt-4 text-green-400 hover:underline text-base hover:scale-105 transition-transform"
-          href="https://drive.google.com/file/d/your-resume-link-here"
+          href="/lovable-uploads/resume.png"
           target="_blank"
           rel="noopener noreferrer"
+          download="Shubh_Gupta_Resume.png"
         >
           <FileText size={18} /> Download Resume
         </a>
