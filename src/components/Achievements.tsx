@@ -2,8 +2,8 @@ import { Award, Book } from "lucide-react";
 
 const achievements = [
   {
-    title: "LeetCode (Highest Rating - 2101)",
-    description: "Knight Badge. Among 1% users in Leetcode",
+    title: "LeetCode (Highest Rating - 2245)",
+    description: "Guardian Badge. Among 0.76% users in Leetcode",
     link: "https://leetcode.com/u/guptashubh6386/",
     secondaryLinks: [
       { label: "Global Rank 358th (W422)", url: "https://leetcode.com/contest/weekly-contest-422/ranking/15/" },
